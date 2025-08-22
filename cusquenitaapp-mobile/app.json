@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "cusquenitaapp-mobile",
+    "slug": "cusquenitaapp-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.luishuachaca123.cusquenitaappmobile",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "La app usa la cámara para escanear códigos."
+      }
+    },
+    "android": {
+      "package": "com.luishuachaca123.cusquenitaappmobile",
+      "versionCode": 1,
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-audio"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7216f4ab-302e-482c-9052-8e63a7f39850"
+      }
+    }
+  }
+}
